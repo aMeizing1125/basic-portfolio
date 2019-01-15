@@ -1,0 +1,110 @@
+head {
+    font-family:  Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;  
+    margin: 0;
+    color: #777777;
+    width: 960px; 
+    background-color: #cccccc;
+    
+
+}
+
+section {
+
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    display: left;
+    width: 350px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+       margin: 0;
+}
+.horizontal-nav {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about-me-content-box {
+    width: 960px;
+    border-style: outset;
+    display: relative;
+    overflow: auto;
+    padding: 20px;
+    clear: left;
+    background-color: #ffffff;
+    margin: 0 auto;
+    
+
+}
+#mei-profile-pic {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    
+}
+.about-me-content-box-p {
+    clear: right;
+    position: relative;
+    
+
+}
+#message-field {
+    height: 100px;
+    
+}
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.nav-border {
+    border-right: 1px solid black;
+}
+
+form {
+    padding: 20px;
+    width: 65%;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 100px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    right: 0;
+   margin: 0 auto;
+   with
+
+
+}
+
+header {
+    position: fixed;
+    background-color: #ffffff;
+    top:0;
+    left:0;
+    right:0;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-box {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+}
