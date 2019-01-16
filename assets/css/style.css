@@ -1,5 +1,5 @@
 head {
-    font-family:  Georgia, Times, 'Times New Roman', serif
+    font-family:  Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -9,21 +9,17 @@ body {
     width: 960px; 
     background-color: #cccccc;
     
-
-}
-
-section {
-
 }
 
 h1 {
     color: white;
     background-color: #4aaaa5;
     display: left;
-    width: 350px;
+    width: 400px;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-       margin: 0;
+    margin: 0;
+    word-break: break-all;
 }
 .horizontal-nav {
     display: inline;
@@ -41,7 +37,8 @@ h1 {
     clear: left;
     background-color: #ffffff;
     margin: 0 auto;
-    
+    margin-top: 100px;
+   
 
 }
 #mei-profile-pic {
@@ -73,9 +70,16 @@ li {
 
 form {
     padding: 20px;
-    width: 65%;
+    width: 920px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top:40px;
+    }
+#form-name,
+#form-email,
+#form-message {
+    width: 900px;
 }
-
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
@@ -87,7 +91,7 @@ footer {
     bottom: 0;
     right: 0;
    margin: 0 auto;
-   with
+   
 
 
 }
@@ -102,9 +106,97 @@ header {
     width: 100%;
     margin: 0 auto;
 }
+button {
+    background-color: #4aaaa5;
+    color: white;
+    cursor: pointer;
+    padding: 14px 28px;
+    font-weight: bold;
+}
 .header-box {
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
     position: relative;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.main {
+    max-width 960px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.portfolio-gallery-name {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-weight: normal;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    transform: translate (-50%,-100%)
+    border: 1px solid #4aaaa5;
+    width: 284px;
+}
+.portfolio-grid {
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-style: outset;
+
+}
+img {
+    width:284px;
+    height: 142px;
+
 }
